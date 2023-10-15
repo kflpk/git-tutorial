@@ -2,6 +2,10 @@
 
 int multiply(int x, int y);
 
+int multiply(int x, int y) {
+    return x * y;
+}
+
 int main() {
     printf("%s", "Teraz z makefilem c:");
 
